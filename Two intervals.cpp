@@ -5,20 +5,20 @@ int main() {
     long long l1, r1, l2, r2;
     cin >> l1 >> r1 >> l2 >> r2;
     
-    long long start, end;
+    long long S, E;
     
     if (l1 > l2) {
-        start = l1;
+        S = l1;
     } else {
-        start = l2;
+        S = l2;
     }
     if (r1 < r2) {
-        end = r1;
+        E = r1;
     } else {
-        end = r2;
+       E = r2;
     }
-    if (start <= end) {
-        cout << start << " " << end;
+    if (S <= E) {
+        cout << S << " " << E;
     } else {
         cout << -1;
     }
