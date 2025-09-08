@@ -6,9 +6,9 @@ int main() {
     cin >> N;
     
     int years = N / 365;
-    int remaining_days = N % 365;
-    int months = remaining_days / 30;
-    int days = remaining_days % 30;
+    int Rdays = N % 365;
+    int months = Rdays / 30;
+    int days = Rdays % 30;
     
     cout << years << " years" << endl;
     cout << months << " months" << endl;
