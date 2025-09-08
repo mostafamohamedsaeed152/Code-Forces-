@@ -7,16 +7,16 @@ int main() {
 
     cin >> A >> S >> B;
 
-    int result;
+    int R;
     if (S == '+')
-        result = A + B;
+        R = A + B;
     else if (S == '-')
-        result = A - B;
+        R = A - B;
     else if (S == '*')
-        result = A * B;
+        R = A * B;
     else if (S == '/')
-        result = A / B; 
+        R = A / B; 
 
-    cout << result << endl;
+    cout << R << endl;
     return 0;
 }
